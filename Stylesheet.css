@@ -1,0 +1,28 @@
+
+.image{float:left;
+    margin: auto 20px;
+    border: solid 4px white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;}
+    body {
+        background-image: url("./images/background.png");
+        font-family: 'Belleza', sans-serif;
+        color: #181818;
+        font-size: 16px;
+        width: 70%;
+        margin: 20px auto;
+    }
+    h1, h2 {
+        font-family: 'Pacifico', sans-serif;
+        color: #2c5783;}
+
+
+p {
+    display: inline;
+}
+
+.ctn {
+    
+    vertical-align: middle;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>jeu des pays</title>
+    <script src="prjt.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="Stylesheet" href="Stylesheet.css" />
+</head>
+
+<body></body>
+<div class="container">
+    <!-- titre -->
+    <div id="titre row">
+        <div class="col">
+            <h1 class="text-center">Jeu des pays</h1>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col ctn">
+            <!-- liste déroulante -->
+            <form id="listes" name="listes">
+                <div style="vertical-align: middle; text-align: center;">
+                    <span id="numero0">1</span>
+                    <select name="liste0">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+
+                    <span id="numero1">2</span>
+                    <select name="liste1">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+                    <span id="numero2">3</span>
+                    <select name="liste2">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+                    <span id="numero3">4</span>
+                    <select name="liste3">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+                    <span id="numero4">5</span>
+                    <select name="liste4">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+                    <span id="numero5">6</span>
+                    <select name="liste5">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select><br />
+                    <span id="numero6">7</span>
+                    <select name="liste6">
+                        <option value="..." selected>...</option>
+                        <option value="Afghanistan">Afghanistant</option>
+                        <option value="Azerbaïdjan">Azerbaïdjan</option>
+                        <option value="Kirghizistan">Kirghizistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Tadjikistan">Tadjikistan</option>
+                        <option value="Turkménistan">Turkménistan</option>
+                        <option value="Ouzbékistan">Ouzbékistan</option>
+                    </select>
+               
+                <br>
+                <br>
+                <input type="submit" class="btn btn-success" name="boutonValider" id="numero" value="Valider"
+                    onclick="fonctionValider(event)">
+                <input name="Effacer" class="btn btn-warning" type="reset" value="Init" /> </div>
+            </form>
+        </div>
+        <div class="col">
+            <img src="carte.png" alt="Carte" class="image" />
+        </div>
+        <hr />
+    </div>
+</div>
+</body>
+
+</html>
